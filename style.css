@@ -25,3 +25,160 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.bila {background-color: var(--primary);}
+.zelena {background-color: #06d7c1;}
+:root {--primary: #FFFFFF;}
+
+body {
+    background-color: #959595;
+    max-width: 670px;
+    max-height: 440px;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vizual,
+.detaily {
+    width: 335px;
+    height: 440px;
+    display: inline-block;
+}
+
+.vizual {
+    background:linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    border-radius: 30px 0 0 30px;
+}
+
+.detaily {
+    padding: 30px;
+    border-radius: 0 30px 30px 0;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.zbozi {
+    margin: 20px auto;
+    max-width: 670px;
+    max-height: 440px;
+}
+
+/*bilá část*/
+
+.nazev {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+
+.produkt {
+    color: #9e9c9c;
+    margin-bottom: 25px;
+}
+
+.popis {
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+.detaily p:nth-child(3) {
+    border-bottom: 2px solid #06d7c1;
+}
+
+.parametr {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 13px;
+}
+
+.velikosti li {
+    display: inline-block;
+    margin-right: 13px;
+    font-size: 16px;
+    font-weight: 250;
+}
+
+.velikosti {
+    padding-left: 6px;
+}
+
+.vybrana {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.tlacitko {
+    background-color: #f15f42;
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+ }
+
+.akce {
+    position: absolute;
+    bottom: 30px;
+}
+
+/*zelená část*/
+
+.rodic {
+    position: relative;
+}
+
+.slogan {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.relative img {
+    position: relative;
+    right: 110px;
+    top: 14px;
+    z-index: 1;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--primary);
+    text-align: right;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary);
+    text-align: right;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+
+
+
